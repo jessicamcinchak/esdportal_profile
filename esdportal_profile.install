@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the Detroit Ledger
+ * Using https://github.com/opdavies/linuxjournal_demo/blob/master/linuxjournal.install for boilerplate
+ */
+
+/**
+ * Implements hook_install().
+ *
+ * Run the hook_install() function from the minimal profile as part of this
+ * profile.
+ */
+function esdportal_profile_install() {
+  include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
+  minimal_install();
+
+  $admin_theme = 'seven';
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', $admin_theme)
+    ->execute();
+  variable_set('admin_theme', $admin_theme);
+  variable_set('node_admin_theme', '1');
+}
+

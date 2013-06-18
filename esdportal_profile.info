@@ -1,0 +1,22 @@
+name = esdportal_profile
+description = Install profile for the ESD portal
+core = 7.x
+php = 5.2.4
+version = 7.x-0.1
+project = esdportal_profile
+dependencies[] = block
+dependencies[] = ctools
+dependencies[] = esdportal_str
+dependencies[] = features
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = list
+dependencies[] = location_cck
+dependencies[] = migrate
+dependencies[] = migrate_ui
+dependencies[] = migrate_d2d
+dependencies[] = migrate_d2d_ui
+dependencies[] = text
+dependencies[] = views
+dependencies[] = views_ui
+
