@@ -112,6 +112,12 @@ projects[devel][download][type] = "git"
 projects[devel][download][url] = "git://git.drupal.org/project/devel.git"
 projects[devel][download][branch] = "7.x-1.x"
 
+projects[location][type] = "module"
+projects[location][subdir] = "contrib"
+projects[location][download][type] = "git"
+projects[location][download][url] = "git://git.drupal.org/project/location.git"
+projects[location][download][branch] = "7.x-3.x"
+
 projects[migrate][type] = "module"
 projects[migrate][subdir] = "contrib"
 projects[migrate][download][type] = "git"
