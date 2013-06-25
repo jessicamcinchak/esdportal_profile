@@ -6,6 +6,7 @@ version = 7.x-0.1
 project = esdportal_profile
 dependencies[] = block
 dependencies[] = ctools
+dependencies[] = entity
 dependencies[] = esdportal_str
 dependencies[] = features
 dependencies[] = field
@@ -17,6 +18,8 @@ dependencies[] = migrate_ui
 dependencies[] = migrate_d2d
 dependencies[] = migrate_d2d_ui
 dependencies[] = text
+dependencies[] = uuid
+dependencies[] = uuid_features
 dependencies[] = views
 dependencies[] = views_ui
 

@@ -116,15 +116,27 @@ projects[migrate][type] = "module"
 projects[migrate][subdir] = "contrib"
 projects[migrate][download][type] = "git"
 projects[migrate][download][url] = "git://git.drupal.org/project/migrate.git"
-projects[migrate][download][branch] = "7.x-2.x"
+;projects[migrate][download][branch] = "7.x-2.x"
 projects[migrate][download][revision] = "aab31f3af8c44b37b5355bfba4732eb87b414269"
 
 projects[migrate_d2d][type] = "module"
 projects[migrate_d2d][subdir] = "contrib"
 projects[migrate_d2d][download][type] = "git"
 projects[migrate_d2d][download][url] = "git://git.drupal.org/project/migrate_d2d.git"
-projects[migrate_d2d][download][branch] = "7.x-2.x"
+;projects[migrate_d2d][download][branch] = "7.x-2.x"
 projects[migrate_d2d][download][revision] = "494211f6d4ffb492c828c3b19ed7f57b30d8bf0c"
+
+projects[uuid][type] = "module"
+projects[uuid][subdir] = "contrib"
+projects[uuid][download][type] = "git"
+projects[uuid][download][url] = "git://git.drupal.org/project/uuid.git"
+projects[uuid][download][revision] = "4bbf92d8c07485492c0f1065cb3647db492e1029"
+
+projects[uuid_features][type] = "module"
+projects[uuid_features][subdir] = "contrib"
+projects[uuid_features][download][type] = "git"
+projects[uuid_features][download][url] = "git://git.drupal.org/project/uuid_features.git"
+projects[uuid_features][download][revision] = "f88f1035b28c1d7e4acdfb87b563b943c0c3d911"
 
 ; Themes
 projects[esd][type] = "theme"
@@ -135,7 +147,7 @@ projects[esd][download][branch] = "portal"
 projects[omega][type] = "theme"
 projects[omega][download][type] = "git"
 projects[omega][download][url] = "git://git.drupal.org/project/omega.git"
-projects[omega][download][branch] = "7.x-4.x"
+;projects[omega][download][branch] = "7.x-4.x"
 projects[omega][download][revision] = "71d02c9f0d0fd0a251f648ffbb29b23bee1967ce"
 
 ; Libraries
