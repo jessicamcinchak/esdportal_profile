@@ -10,6 +10,12 @@ projects[esdportal_str][download][type] = "git"
 projects[esdportal_str][download][url] = "https://github.com/bnchdrff/esdportal_str.git"
 projects[esdportal_str][download][branch] = "7.x-1.x"
 
+projects[esdportal_migrate][type] = "module"
+projects[esdportal_migrate][subdir] = "custom"
+projects[esdportal_migrate][download][type] = "git"
+projects[esdportal_migrate][download][url] = "https://github.com/bnchdrff/esdportal_migrate.git"
+projects[esdportal_migrate][download][branch] = "7.x-1.x"
+
 projects[acl][subdir] = "contrib"
 projects[acl][version] = "1.0"
 
