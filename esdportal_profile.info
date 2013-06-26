@@ -16,7 +16,9 @@ dependencies[] = migrate
 dependencies[] = migrate_ui
 dependencies[] = migrate_d2d
 dependencies[] = migrate_d2d_ui
+dependencies[] = services
 dependencies[] = text
+dependencies[] = taxonomy_revision
 dependencies[] = views
 dependencies[] = views_ui
 

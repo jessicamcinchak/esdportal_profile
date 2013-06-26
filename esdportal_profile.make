@@ -85,8 +85,14 @@ projects[pathauto][version] = "1.2"
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
 
+projects[services][subdir] = "contrib"
+projects[services][version] = "3.4"
+
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.5"
+
+projects[taxonomy_revision][subdir] = "contrib"
+projects[taxonomy_revision][version] = "1.0"
 
 projects[video_embed_field][subdir] = "contrib"
 projects[video_embed_field][version] = "2.0-beta5"
