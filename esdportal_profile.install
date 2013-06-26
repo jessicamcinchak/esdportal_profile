@@ -24,5 +24,10 @@ function esdportal_profile_install() {
     ->execute();
   variable_set('admin_theme', $admin_theme);
   variable_set('node_admin_theme', '1');
+
+  // logintoboggan
+  variable_set('logintoboggan_login_successful_message', '1');
+  variable_set('logintoboggan_login_with_email', '1');
+  variable_set('site_403', 'toboggan/denied');
 }
 

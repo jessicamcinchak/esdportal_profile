@@ -73,6 +73,9 @@ projects[location][version] = "3.0-rc1"
 projects[location_feeds][subdir] = "contrib"
 projects[location_feeds][version] = "1.6"
 
+projects[logintoboggan][subdir] = "contrib"
+projects[logintoboggan][version] = "1.3"
+
 projects[mailsystem][subdir] = "contrib"
 projects[mailsystem][version] = "2.34"
 
