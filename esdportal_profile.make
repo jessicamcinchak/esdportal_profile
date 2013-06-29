@@ -10,11 +10,11 @@ projects[esdportal_str][download][type] = "git"
 projects[esdportal_str][download][url] = "https://github.com/bnchdrff/esdportal_str.git"
 projects[esdportal_str][download][branch] = "7.x-1.x"
 
-projects[esdportal_migrate][type] = "module"
-projects[esdportal_migrate][subdir] = "custom"
-projects[esdportal_migrate][download][type] = "git"
-projects[esdportal_migrate][download][url] = "https://github.com/bnchdrff/esdportal_migrate.git"
-projects[esdportal_migrate][download][branch] = "7.x-1.x"
+projects[migrate_esdportal][type] = "module"
+projects[migrate_esdportal][subdir] = "custom"
+projects[migrate_esdportal][download][type] = "git"
+projects[migrate_esdportal][download][url] = "https://github.com/bnchdrff/migrate_esdportal.git"
+projects[migrate_esdportal][download][branch] = "7.x-1.x"
 
 projects[acl][subdir] = "contrib"
 projects[acl][version] = "1.0"
@@ -52,6 +52,12 @@ projects[features][version] = "2.0-rc1"
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.0-alpha8"
 
+projects[geocoder][subdir] = "contrib"
+projects[geocoder][version] = "1.2"
+
+projects[geophp][subdir] = "contrib"
+projects[geophp][version] = "1.7"
+
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.3"
 
@@ -68,7 +74,7 @@ projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "1.0"
+projects[libraries][version] = "2.1"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.1"
@@ -109,6 +115,9 @@ projects[video_embed_field][version] = "2.0-beta5"
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.7"
 
+projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations][version] = "3.1"
+
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.0-alpha6"
 
@@ -121,6 +130,18 @@ projects[wysiwyg][version] = "2.2"
 
 
 ; Modules
+projects[addressfield][type] = "module"
+projects[addressfield][subdir] = "contrib"
+projects[addressfield][download][type] = "git"
+projects[addressfield][download][url] = "https://github.com/bnchdrff/addressfield.git"
+projects[addressfield][download][branch] = "7.x-1.x-better-migrations"
+
+projects[addressfield_phone][type] = "module"
+projects[addressfield_phone][subdir] = "contrib"
+projects[addressfield_phone][download][type] = "git"
+projects[addressfield_phone][download][url] = "git://git.drupal.org/project/addressfield_phone.git"
+projects[addressfield_phone][download][branch] = "7.x-1.x"
+
 projects[devel][type] = "module"
 projects[devel][subdir] = "contrib"
 projects[devel][download][type] = "git"
