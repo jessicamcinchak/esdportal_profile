@@ -198,7 +198,7 @@ projects[uuid_features][download][revision] = "f88f1035b28c1d7e4acdfb87b563b943c
 ; Themes
 projects[esd][type] = "theme"
 projects[esd][download][type] = "git"
-projects[esd][download][url] = "chili@pm.theworkdept.com:excellent-schools-detroit.git"
+projects[esd][download][url] = "https://github.com/bnchdrff/esd.git"
 projects[esd][download][branch] = "portal"
 
 projects[omega][type] = "theme"
