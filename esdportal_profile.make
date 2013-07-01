@@ -103,6 +103,9 @@ projects[redirect][version] = "1.0-rc1"
 projects[services][subdir] = "contrib"
 projects[services][version] = "3.4"
 
+projects[services_views][subdir] = "contrib"
+projects[services_views][version] = "1.0-beta2"
+
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.5"
 
@@ -142,6 +145,12 @@ projects[addressfield_phone][download][type] = "git"
 projects[addressfield_phone][download][url] = "git://git.drupal.org/project/addressfield_phone.git"
 projects[addressfield_phone][download][branch] = "7.x-1.x"
 
+projects[data][type] = "module"
+projects[data][subdir] = "contrib"
+projects[data][download][type] = "git"
+projects[data][download][url] = "git://git.drupal.org/project/data.git"
+projects[data][download][branch] = "7.x-1.x"
+
 projects[devel][type] = "module"
 projects[devel][subdir] = "contrib"
 projects[devel][download][type] = "git"
@@ -167,6 +176,12 @@ projects[migrate_d2d][download][type] = "git"
 projects[migrate_d2d][download][url] = "git://git.drupal.org/project/migrate_d2d.git"
 ;projects[migrate_d2d][download][branch] = "7.x-2.x"
 projects[migrate_d2d][download][revision] = "494211f6d4ffb492c828c3b19ed7f57b30d8bf0c"
+
+projects[schema][type] = "module"
+projects[schema][subdir] = "contrib"
+projects[schema][download][type] = "git"
+projects[schema][download][url] = "git://git.drupal.org/project/schema.git"
+projects[schema][download][branch] = "7.x-1.x"
 
 projects[uuid][type] = "module"
 projects[uuid][subdir] = "contrib"
