@@ -17,6 +17,7 @@ dependencies[] = field
 dependencies[] = field_ui
 dependencies[] = geocoder
 dependencies[] = geophp
+dependencies[] = link
 dependencies[] = list
 dependencies[] = location_cck
 dependencies[] = location_email
