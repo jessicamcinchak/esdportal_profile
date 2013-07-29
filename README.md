@@ -18,7 +18,7 @@ drush make --working-copy https://raw.github.com/bnchdrff/esdportal_profile/mast
 Configure
 ---------
 
-The install profile will download and enable the migrate_esdportal module, which includes a preconfigured migrate routine for school taxonomy terms via CSV.
+The install profile will download the migrate_esdportal module, which includes a preconfigured migrate routine for school taxonomy terms via CSV. Enable this module so you can run the Schools data import.
 
 To set up the Schools migrate importer source, place the schools CSV file somewhere reachable by your PHP webserver process, and modify [this line](https://github.com/bnchdrff/migrate_esdportal/blob/7.x-1.x/migrate_esdportal.migrate.inc#L45) with the correct path.
 
