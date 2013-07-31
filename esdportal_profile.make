@@ -55,6 +55,9 @@ projects[diff][version] = "3.2"
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.1"
 
+projects[entityreference][subdir] = "contrib"
+projects[entityreference][version] = "1.0"
+
 projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.12"
 

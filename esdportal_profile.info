@@ -11,6 +11,7 @@ dependencies[] = ctools
 dependencies[] = data
 dependencies[] = data_entity
 dependencies[] = entity
+dependencies[] = entityreference
 dependencies[] = esdportal_dash
 dependencies[] = esdportal_scoresbybcode
 dependencies[] = esdportal_str
