@@ -4,6 +4,18 @@ core = 7.x
 api = 2
 projects[] = "drupal"
 
+projects[esdportal_dash][type] = "module"
+projects[esdportal_dash][subdir] = "features"
+projects[esdportal_dash][download][type] = "git"
+projects[esdportal_dash][download][url] = "https://github.com/bnchdrff/esdportal_dash.git"
+projects[esdportal_dash][download][branch] = "7.x-1.x"
+
+projects[esdportal_scoresbybcode][type] = "module"
+projects[esdportal_scoresbybcode][subdir] = "features"
+projects[esdportal_scoresbybcode][download][type] = "git"
+projects[esdportal_scoresbybcode][download][url] = "https://github.com/bnchdrff/esdportal_scoresbybcode.git"
+projects[esdportal_scoresbybcode][download][branch] = "7.x-1.x"
+
 projects[esdportal_str][type] = "module"
 projects[esdportal_str][subdir] = "features"
 projects[esdportal_str][download][type] = "git"
