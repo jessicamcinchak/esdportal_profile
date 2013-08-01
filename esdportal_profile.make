@@ -34,6 +34,9 @@ projects[acl][version] = "1.0"
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc4"
 
+projects[boxes][subdir] = "contrib"
+projects[boxes][version] = "1.1"
+
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.3"
 
