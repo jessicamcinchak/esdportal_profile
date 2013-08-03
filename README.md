@@ -31,7 +31,7 @@ After setting up the sources for schools terms CSV and the migrate_d2d database 
 ```shell
 drush mreg
 drush mi Schools
-drush mi --group ExcellentSchoolsDetroitPortal # name of the d2d group
+drush mi --group=ExcellentSchoolsDetroitPortal # name of the d2d group
 ```
 
 When the import is complete, use views_bulk_operations to run the following PHP snippets on all school_profile nodes:
