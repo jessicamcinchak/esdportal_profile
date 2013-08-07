@@ -73,6 +73,9 @@ projects[feeds][version] = "2.0-alpha8"
 projects[geocoder][subdir] = "contrib"
 projects[geocoder][version] = "1.2"
 
+projects[geofield][subdir] = "contrib"
+projects[geofield][version] = "1.2"
+
 projects[geophp][subdir] = "contrib"
 projects[geophp][version] = "1.7"
 
