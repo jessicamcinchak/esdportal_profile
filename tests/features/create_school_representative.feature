@@ -1,15 +1,15 @@
-Feature: Create a school leader
+Feature: Create a school representative
         As a Logistics Coordinator
         In order to manage school data
-        # School Leaders are school employees who can edit some data about
+        # School Representatives are school employees who can edit some data about
         # their school (the "school profile")
-        I need to create a School Leader user and assign them to a certain school
+        I need to create a School Representative user and assign them to a certain school
 
         # TODO: Scenario for navigating to the create new user view
         # The flow through the UI seems a bit in flux right now and to me
         # it seems like this is a separate test case from the user creation
 
-        Scenario: Create a School Leader user and assign them to a school
+        Scenario: Create a School Representative user and assign them to a school
                 Given I am logged in as a user with the "Logistics Coordinator" role
                 # QUESTION: What are the essential fields for schools?
                 # This can probably be an alias for
