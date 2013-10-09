@@ -1,16 +1,13 @@
 Feature: Create school profiles related to a school
         As a Logistics Coordinator
         In order to manage school data
-        I want to create a new school profile and relate it to an existing school taxonomy term.
+        I want to create a new school profile, relate it to an existing school taxonomy term, and relate it to a School Representative user
 
         Scenario: Create a School Profile and relate it to a School taxonomy term
                 Given I am logged in as a user with the "Logistics Coordinator" role
-                # QUESTION: What are the essential fields for schools?
-                # This can probably be an alias for
-                # Given "School" terms:
                 And the following schools exist:
-                        | name                       |
-                        | Cass Technical High School |
+                        | name                       | bcode | address1     | city    | state | zip   |
+                        | Cass Technical High School | 554   | 2501 2nd Ave | Detroit | MI    | 48201 |
                 When I am at "node/add/school-profile"
                 And I fill in "Cass Technical High School" for "School Name"
                 And I check "9"
@@ -50,3 +47,25 @@ Feature: Create school profiles related to a school
                 # We probably need to define reigons to do this
                 # TODO: Check for association with school taxonomy term
                 # by presence of address
+
+
+        Scenario: Relate a School Profile with a School Representative user
+                Given I am logged in as a user with the "Logistics Coordinator" role
+                And the following schools exist:
+                        | name                       | bcode | address1     | city    | state | zip   |
+                        | Cass Technical High School | 554   | 2501 2nd Ave | Detroit | MI    | 48201 |
+                And the following school profiles exist:
+                        | name                       | school                     | 
+                        | Cass Technical High School | Cass Technical High School |
+                And the following school representatives exist:
+                        | username     |
+                        | PauloFrierie |
+               And I am viewing a "School Profile" node with the title "Cass Technical High School"
+               When I click "Edit"
+               And I click "Access control" 
+               And I click "GRANT UPDATE ACCESS"
+               And I fill in "PauloFrierie" in for "#edit-acl-update-add"
+               And I press the "#edit-acl-update-add-button" button
+               And I press the "Submit" button
+               # TODO: Figure out how to test result. I don't have the "Access control"
+               # tab in my dev environment
