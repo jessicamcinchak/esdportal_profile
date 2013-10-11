@@ -35,12 +35,12 @@ function esdportal_profile_install() {
 
   // disable blocks provided by context
   db_update('block')
-    ->fields(array('region' => -1))
+    ->fields(array('region' => 'branding'))
     ->condition('module', 'user')
     ->condition('delta', 'login')
     ->execute();
   db_update('block')
-    ->fields(array('region' => -1))
+    ->fields(array('region' => 'branding'))
     ->condition('module', 'system')
     ->condition('delta', 'navigation')
     ->execute();
