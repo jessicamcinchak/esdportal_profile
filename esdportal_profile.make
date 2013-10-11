@@ -5,13 +5,13 @@ api = 2
 projects[] = "drupal"
 
 projects[esdportal_dash][type] = "module"
-projects[esdportal_dash][subdir] = "features"
+projects[esdportal_dash][subdir] = "custom"
 projects[esdportal_dash][download][type] = "git"
 projects[esdportal_dash][download][url] = "https://github.com/bnchdrff/esdportal_dash.git"
 projects[esdportal_dash][download][branch] = "7.x-1.x"
 
 projects[esdportal_scoresbybcode][type] = "module"
-projects[esdportal_scoresbybcode][subdir] = "features"
+projects[esdportal_scoresbybcode][subdir] = "custom"
 projects[esdportal_scoresbybcode][download][type] = "git"
 projects[esdportal_scoresbybcode][download][url] = "https://github.com/bnchdrff/esdportal_scoresbybcode.git"
 projects[esdportal_scoresbybcode][download][branch] = "7.x-1.x"
@@ -36,6 +36,9 @@ projects[admin_menu][version] = "3.0-rc4"
 
 projects[boxes][subdir] = "contrib"
 projects[boxes][version] = "1.1"
+
+projects[context][subdir] = "contrib"
+projects[context][version] = "3.0-rc1"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.3"
@@ -160,8 +163,8 @@ projects[wysiwyg][version] = "2.2"
 projects[addressfield][type] = "module"
 projects[addressfield][subdir] = "contrib"
 projects[addressfield][download][type] = "git"
-projects[addressfield][download][url] = "https://github.com/bnchdrff/addressfield.git"
-projects[addressfield][download][branch] = "7.x-1.x-better-migrations"
+projects[addressfield][download][url] = "git://git.drupal.org/project/addressfield.git"
+projects[addressfield][download][branch] = "7.x-1.x"
 
 projects[addressfield_phone][type] = "module"
 projects[addressfield_phone][subdir] = "contrib"

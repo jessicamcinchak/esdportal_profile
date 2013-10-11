@@ -16,6 +16,9 @@ function esdportal_profile_install() {
   include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
   minimal_install();
 
+  $theme = 'esd';
+  theme_enable(array($theme));
+  variable_set('theme_default', $theme);
   $admin_theme = 'seven';
   db_update('system')
     ->fields(array('status' => 1))
