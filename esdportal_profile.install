@@ -32,5 +32,18 @@ function esdportal_profile_install() {
   variable_set('logintoboggan_login_successful_message', '1');
   variable_set('logintoboggan_login_with_email', '1');
   variable_set('site_403', 'toboggan/denied');
+
+  // disable blocks provided by context
+  db_update('block')
+    ->fields(array('region' => 'branding'))
+    ->condition('module', 'user')
+    ->condition('delta', 'login')
+    ->execute();
+  db_update('block')
+    ->fields(array('region' => 'branding'))
+    ->condition('module', 'system')
+    ->condition('delta', 'navigation')
+    ->execute();
+
 }
 
