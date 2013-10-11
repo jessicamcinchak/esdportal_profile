@@ -1,3 +1,4 @@
+@api
 Feature: Create a school
         # Logistics Coordinators are on ESD staff
         # they manage school data and help school leaders and superintendents
