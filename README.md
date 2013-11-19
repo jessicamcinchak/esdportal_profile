@@ -47,6 +47,70 @@ node_save($entity);
 
 For data sources, see [this Work Dept internal issue](https://pm.theworkdept.com/issues/3057).
 
+Testing
+-------
+
+Acceptance tests for this project are implemented with [Behat](http://behat.org/)
+and use [Mink](http://mink.behat.org/) for browser interactions.
+
+### Test environment
+
+To run the acceptance tests, you'll need to install a few libraries and PHP 
+packages. 
+
+Install the PHP curl extension.  On Ubuntu, this looks like:
+
+```
+sudo apt-get install curl libcurl3 libcurl3-dev php5-curl
+```
+
+Change directory to the tests subdirectory of this project:
+
+```
+cd $PATH_TO_INSTALL_PROFILE/tests
+```
+
+Install [Composer](http://getcomposer.org/):
+
+```
+curl -s https://getcomposer.org/installer | php
+```
+
+Install testing dependencies using Composer:
+
+```
+php composer.phar install
+```
+
+While Mink supports a number of different browser drivers, Drupal Behat
+Extension, which provides some batteries for using Behat with a
+Drupal site, requires the Selenium2 driver. We use the PhantomJS because
+it has a WebDriver interface compatible with the Selenium2 driver,
+it's fast, and it's headless, allowing us to run tests on external machines
+or in a CI environment like Travis.
+
+Install PhantomJS.  You can download and unpack manually from
+http://phantomjs.org/download.html, or use npm.
+
+```
+sudo npm install -g phantomjs
+```
+
+### Running tests
+
+Run the PhantomJS WebDriver
+
+```
+phantomjs --webdriver=8643 &
+
+```
+
+Run Behat
+
+```
+./bin/behat features/
+```
+
 Credits
 -------
 
