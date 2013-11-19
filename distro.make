@@ -6,4 +6,4 @@ projects[drupal][version] = "7.22"
 
 projects[esdportal_profile][type] = profile
 projects[esdportal_profile][download][type] = git
-projects[esdportal_profile][download][url] = https://github.com/bnchdrff/esdportal_profile.git
+projects[esdportal_profile][download][url] = https://github.com/ESDet/esdportal_profile.git

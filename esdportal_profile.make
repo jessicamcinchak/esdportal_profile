@@ -7,25 +7,25 @@ projects[] = "drupal"
 projects[esdportal_dash][type] = "module"
 projects[esdportal_dash][subdir] = "custom"
 projects[esdportal_dash][download][type] = "git"
-projects[esdportal_dash][download][url] = "https://github.com/bnchdrff/esdportal_dash.git"
+projects[esdportal_dash][download][url] = "https://github.com/ESDet/esdportal_dash.git"
 projects[esdportal_dash][download][branch] = "7.x-1.x"
 
 projects[esdportal_scoresbybcode][type] = "module"
 projects[esdportal_scoresbybcode][subdir] = "custom"
 projects[esdportal_scoresbybcode][download][type] = "git"
-projects[esdportal_scoresbybcode][download][url] = "https://github.com/bnchdrff/esdportal_scoresbybcode.git"
+projects[esdportal_scoresbybcode][download][url] = "https://github.com/ESDet/esdportal_scoresbybcode.git"
 projects[esdportal_scoresbybcode][download][branch] = "7.x-1.x"
 
 projects[esdportal_str][type] = "module"
 projects[esdportal_str][subdir] = "features"
 projects[esdportal_str][download][type] = "git"
-projects[esdportal_str][download][url] = "https://github.com/bnchdrff/esdportal_str.git"
+projects[esdportal_str][download][url] = "https://github.com/ESDet/esdportal_str.git"
 projects[esdportal_str][download][branch] = "7.x-1.x"
 
 projects[migrate_esdportal][type] = "module"
 projects[migrate_esdportal][subdir] = "custom"
 projects[migrate_esdportal][download][type] = "git"
-projects[migrate_esdportal][download][url] = "https://github.com/bnchdrff/migrate_esdportal.git"
+projects[migrate_esdportal][download][url] = "https://github.com/ESDet/migrate_esdportal.git"
 projects[migrate_esdportal][download][branch] = "7.x-1.x"
 
 projects[acl][subdir] = "contrib"
@@ -225,7 +225,7 @@ projects[uuid_features][download][revision] = "f88f1035b28c1d7e4acdfb87b563b943c
 ; Themes
 projects[esd][type] = "theme"
 projects[esd][download][type] = "git"
-projects[esd][download][url] = "https://github.com/bnchdrff/esd.git"
+projects[esd][download][url] = "https://github.com/ESDet/esd.git"
 projects[esd][download][branch] = "portal"
 
 projects[omega][type] = "theme"
