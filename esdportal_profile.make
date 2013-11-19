@@ -146,7 +146,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.1"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "4.0-alpha6"
+projects[webform][version] = "4.0-beta1"
 
 projects[workspace][subdir] = "contrib"
 projects[workspace][version] = "1.x-dev"
@@ -219,6 +219,15 @@ projects[uuid_features][download][type] = "git"
 projects[uuid_features][download][url] = "git://git.drupal.org/project/uuid_features.git"
 projects[uuid_features][download][revision] = "f88f1035b28c1d7e4acdfb87b563b943c0c3d911"
 
+projects[webform_term_opts][type] = "module"
+projects[webform_term_opts][subdir] = "contrib"
+projects[webform_term_opts][download][type] = "git"
+projects[webform_term_opts][download][url] = "git://git.drupal.org/project/webform_term_opts.git"
+projects[webform_term_opts][download][branch] = "7.x-1.x"
+projects[webform_term_opts][patch][url] = "https://drupal.org/files/issues/webform_term_opts-relatable_tid-1621068-4.patch"
+projects[webform_term_opts][patch][md5] = "fbf90c283fe9e02116093b6d42df3071"
+
+; Themes
 ; Themes
 projects[esd][type] = "theme"
 projects[esd][download][type] = "git"

@@ -39,9 +39,12 @@ dependencies[] = services_views
 dependencies[] = strongarm
 dependencies[] = text
 dependencies[] = taxonomy_revision
+dependencies[] = token
 dependencies[] = uuid
 dependencies[] = uuid_features
 dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = views_ui
+dependencies[] = webform
+dependencies[] = webform_term_opts
 
