@@ -230,8 +230,8 @@ projects[webform_term_opts][subdir] = "contrib"
 projects[webform_term_opts][download][type] = "git"
 projects[webform_term_opts][download][url] = "git://git.drupal.org/project/webform_term_opts.git"
 projects[webform_term_opts][download][branch] = "7.x-1.x"
-projects[webform_term_opts][patch][url] = "https://drupal.org/files/issues/webform_term_opts-relatable_tid-1621068-4.patch"
-projects[webform_term_opts][patch][md5] = "fbf90c283fe9e02116093b6d42df3071"
+projects[webform_term_opts][patch][relatable_tid][url] = "https://drupal.org/files/issues/webform_term_opts-relatable_tid-1621068-4.patch"
+projects[webform_term_opts][patch][relatable_tid][md5] = "fbf90c283fe9e02116093b6d42df3071"
 
 ; Themes
 projects[esd][type] = "theme"
