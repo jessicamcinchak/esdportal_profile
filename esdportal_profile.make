@@ -136,6 +136,9 @@ projects[services_views][version] = "1.0-beta2"
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
+projects[styleguide][subdir] = "contrib"
+projects[styleguide][version] = "1.1"
+
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.5"
 
@@ -150,6 +153,9 @@ projects[views][version] = "3.7"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.1"
+
+projects[views_data_export][subdir] = "contrib"
+projects[views_data_export][version] = "3.0-beta6"
 
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.0-beta1"
