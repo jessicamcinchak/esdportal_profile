@@ -5,7 +5,7 @@ api = 2
 ; omega8.cc core
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "http://files.aegir.cc/dev/drupal-7.23.3.tar.gz"
+projects[drupal][download][url] = "http://files.aegir.cc/dev/drupal-7.24.1.tar.gz"
 
 projects[esdportal_dash][type] = "module"
 projects[esdportal_dash][subdir] = "custom"
@@ -41,7 +41,7 @@ projects[boxes][subdir] = "contrib"
 projects[boxes][version] = "1.1"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-rc1"
+projects[context][version] = "3.1"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.3"
@@ -62,10 +62,10 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.1"
+projects[entity][version] = "1.2"
 
 projects[entityreference][subdir] = "contrib"
-projects[entityreference][version] = "1.0"
+projects[entityreference][version] = "1.1"
 
 projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.12"
