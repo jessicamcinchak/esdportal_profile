@@ -193,6 +193,12 @@ projects[devel][download][type] = "git"
 projects[devel][download][url] = "git://git.drupal.org/project/devel.git"
 projects[devel][download][branch] = "7.x-1.x"
 
+projects[editablefields][type] = "module"
+projects[editablefields][subdir] = "contrib"
+projects[editablefields][download][type] = "git"
+projects[editablefields][download][url] = "git://git.drupal.org/project/editablefields.git"
+projects[editablefields][download][branch] = "7.x-1.x"
+
 projects[location][type] = "module"
 projects[location][subdir] = "contrib"
 projects[location][download][type] = "git"

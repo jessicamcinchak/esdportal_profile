@@ -13,6 +13,7 @@ dependencies[] = context_ui
 dependencies[] = ctools
 dependencies[] = data
 dependencies[] = data_entity
+dependencies[] = editablefields
 dependencies[] = entity
 dependencies[] = entityreference
 dependencies[] = esdportal_dash
