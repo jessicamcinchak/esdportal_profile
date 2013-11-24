@@ -9,3 +9,4 @@ projects[drupal][download][url] = "http://files.aegir.cc/dev/drupal-7.24.1.tar.g
 projects[esdportal_profile][type] = profile
 projects[esdportal_profile][download][type] = git
 projects[esdportal_profile][download][url] = https://github.com/ESDet/esdportal_profile.git
+projects[esdportal_profile][download][branch] = "3472-editablefields"

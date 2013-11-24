@@ -23,7 +23,7 @@ projects[esdportal_str][type] = "module"
 projects[esdportal_str][subdir] = "features"
 projects[esdportal_str][download][type] = "git"
 projects[esdportal_str][download][url] = "https://github.com/ESDet/esdportal_str.git"
-projects[esdportal_str][download][branch] = "7.x-1.x"
+projects[esdportal_str][download][branch] = "3472-editablefields"
 
 projects[migrate_esdportal][type] = "module"
 projects[migrate_esdportal][subdir] = "custom"
