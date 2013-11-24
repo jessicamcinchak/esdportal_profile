@@ -16,6 +16,7 @@ drush make --working-copy https://raw.github.com/bnchdrff/esdportal_profile/mast
 cd DEST_DIR
 mysql -uroot -e 'create database portal_dev'
 drush site-install esdportal_profile  --account-name=admin --account-pass=admin --db-url=mysql://root@localhost/portal_dev --yes
+(cd profiles/esdportal_profile/themes/esd/; compass compile)
 drush cc all
 drush runserver --server=builtin 8080
 ```
