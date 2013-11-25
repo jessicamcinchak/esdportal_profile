@@ -193,6 +193,8 @@ projects[date_restrictions][subdir] = "contrib"
 projects[date_restrictions][download][type] = "git"
 projects[date_restrictions][download][url] = "git://git.drupal.org/project/date_restrictions.git"
 projects[date_restrictions][download][branch] = "7.x-1.x"
+projects[date_restrictions][patch][minmaxallowedvaluestest][url] = "https://drupal.org/files/issues/date_restrictions-minmaxallowedvaluestest-2143335-1_0.patch"
+projects[date_restrictions][patch][minmaxallowedvaluestest][md5] = "3d6525e34cb0002ce7be52b95e268217"
 
 projects[devel][type] = "module"
 projects[devel][subdir] = "contrib"
