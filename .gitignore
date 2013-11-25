@@ -1,6 +1,7 @@
 .DS_STORE
 modules
 themes
+libraries
 tests/*report*.html
 tests/vendor
 tests/bin
