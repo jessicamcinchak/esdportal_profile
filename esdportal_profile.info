@@ -28,6 +28,7 @@ dependencies[] = esdportal_scoresbybcode
 dependencies[] = esdportal_str
 dependencies[] = features
 dependencies[] = field
+dependencies[] = field_group
 dependencies[] = field_ui
 dependencies[] = geocoder
 dependencies[] = geofield
