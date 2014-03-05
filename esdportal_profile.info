@@ -22,6 +22,7 @@ dependencies[] = date_restrictions_host_entity
 dependencies[] = date_restrictions_minmax
 dependencies[] = editablefields
 dependencies[] = entity
+dependencies[] = entity_translation
 dependencies[] = entityreference
 dependencies[] = esdportal_dash
 dependencies[] = esdportal_scoresbybcode
@@ -53,5 +54,6 @@ dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = views_ui
 dependencies[] = webform
+dependencies[] = webform_localization
 dependencies[] = webform_term_opts
 

@@ -94,6 +94,9 @@ projects[google_analytics][version] = "1.3"
 projects[hidden_captcha][subdir] = "contrib"
 projects[hidden_captcha][version] = "1.0"
 
+projects[i18n][subdir] = "contrib"
+projects[i18n][version] = "1.10"
+
 projects[imce][subdir] = "contrib"
 projects[imce][version] = "1.7"
 
@@ -147,6 +150,9 @@ projects[token][version] = "1.5"
 
 projects[taxonomy_revision][subdir] = "contrib"
 projects[taxonomy_revision][version] = "1.0"
+
+projects[variable][subdir] = "contrib"
+projects[variable][version] = "2.4"
 
 projects[video_embed_field][subdir] = "contrib"
 projects[video_embed_field][version] = "2.0-beta5"
@@ -202,6 +208,12 @@ projects[devel][download][type] = "git"
 projects[devel][download][url] = "git://git.drupal.org/project/devel.git"
 projects[devel][download][branch] = "7.x-1.x"
 
+projects[entity_translation][type] = "module"
+projects[entity_translation][subdir] = "contrib"
+projects[entity_translation][download][type] = "git"
+projects[entity_translation][download][url] = "git://git.drupal.org/project/entity_translation.git"
+projects[entity_translation][download][branch] = "7.x-1.x"
+
 projects[editablefields][type] = "module"
 projects[editablefields][subdir] = "contrib"
 projects[editablefields][download][type] = "git"
@@ -245,6 +257,12 @@ projects[uuid_features][subdir] = "contrib"
 projects[uuid_features][download][type] = "git"
 projects[uuid_features][download][url] = "git://git.drupal.org/project/uuid_features.git"
 projects[uuid_features][download][revision] = "f88f1035b28c1d7e4acdfb87b563b943c0c3d911"
+
+projects[webform_localization][type] = "module"
+projects[webform_localization][subdir] = "contrib"
+projects[webform_localization][download][type] = "git"
+projects[webform_localization][download][url] = "git://git.drupal.org/project/webform_localization.git"
+projects[webform_localization][download][branch] = "7.x-4.x"
 
 projects[webform_term_opts][type] = "module"
 projects[webform_term_opts][subdir] = "contrib"
