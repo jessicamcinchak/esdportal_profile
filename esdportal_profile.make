@@ -13,6 +13,12 @@ projects[esdportal_dash][download][type] = "git"
 projects[esdportal_dash][download][url] = "https://github.com/ESDet/esdportal_dash.git"
 projects[esdportal_dash][download][branch] = "7.x-1.x"
 
+projects[esdportal_ecsitevisit_webform_options][type] = "module"
+projects[esdportal_ecsitevisit_webform_options][subdir] = "custom"
+projects[esdportal_ecsitevisit_webform_options][download][type] = "git"
+projects[esdportal_ecsitevisit_webform_options][download][url] = "https://github.com/ESDet/esdportal_ecsitevisit_webform_options.git"
+projects[esdportal_ecsitevisit_webform_options][download][branch] = "7.x-1.x"
+
 projects[esdportal_scoresbybcode][type] = "module"
 projects[esdportal_scoresbybcode][subdir] = "custom"
 projects[esdportal_scoresbybcode][download][type] = "git"
