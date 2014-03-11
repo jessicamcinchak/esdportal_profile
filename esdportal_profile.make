@@ -226,6 +226,12 @@ projects[editablefields][download][type] = "git"
 projects[editablefields][download][url] = "git://git.drupal.org/project/editablefields.git"
 projects[editablefields][download][branch] = "7.x-1.x"
 
+projects[l10n_update][type] = "module"
+projects[l10n_update][subdir] = "contrib"
+projects[l10n_update][download][type] = "git"
+projects[l10n_update][download][url] = "git://git.drupal.org/project/l10n_update.git"
+projects[l10n_update][download][branch] = "7.x-2.x"
+
 projects[location][type] = "module"
 projects[location][subdir] = "contrib"
 projects[location][download][type] = "git"
