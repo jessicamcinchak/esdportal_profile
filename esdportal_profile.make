@@ -275,6 +275,8 @@ projects[webform_localization][subdir] = "contrib"
 projects[webform_localization][download][type] = "git"
 projects[webform_localization][download][url] = "git://git.drupal.org/project/webform_localization.git"
 projects[webform_localization][download][branch] = "7.x-4.x"
+projects[webform_localization][patch][certain_fields_unfiltered][url] = "https://drupal.org/files/issues/certain_fields_unfiltered-1796748-5.patch"
+projects[webform_localization][patch][certain_fields_unfiltered][md5] = "a4040dbdd34e3d3e256fa588b8ab38ed"
 
 projects[webform_term_opts][type] = "module"
 projects[webform_term_opts][subdir] = "contrib"
