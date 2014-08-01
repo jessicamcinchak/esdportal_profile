@@ -63,9 +63,6 @@ projects[node_clone][version] = "1.0-rc1"
 projects[content_access][subdir] = "contrib"
 projects[content_access][version] = "1.2-beta2"
 
-projects[date][subdir] = "contrib"
-projects[date][version] = "2.6"
-
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
 
@@ -203,6 +200,12 @@ projects[data][subdir] = "contrib"
 projects[data][download][type] = "git"
 projects[data][download][url] = "git://git.drupal.org/project/data.git"
 projects[data][download][branch] = "7.x-1.x"
+
+projects[date][type] = "module"
+projects[date][subdir] = "contrib"
+projects[date][download][type] = "git"
+projects[date][download][url] = "git://git.drupal.org/project/date.git"
+projects[date][download][branch] = "7.x-2.x"
 
 projects[date_restrictions][type] = "module"
 projects[date_restrictions][subdir] = "contrib"
