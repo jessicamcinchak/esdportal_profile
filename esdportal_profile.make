@@ -48,6 +48,9 @@ projects[admin_menu][version] = "3.0-rc4"
 projects[boxes][subdir] = "contrib"
 projects[boxes][version] = "1.1"
 
+projects[charts][subdir] = "contrib"
+projects[charts][version] = "2.0-rc1"
+
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.1"
 
@@ -171,8 +174,14 @@ projects[views_bulk_operations][version] = "3.1"
 projects[views_data_export][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta6"
 
+projects[views_date_format_sql][subdir] = "contrib"
+projects[views_date_format_sql][version] = "3.1"
+
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.0-beta1"
+
+projects[webform_invitation][subdir] = "contrib"
+projects[webform_invitation][version] = "2.3"
 
 projects[workspace][subdir] = "contrib"
 projects[workspace][version] = "1.x-dev"
