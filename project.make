@@ -9,6 +9,9 @@ projects[drupal][patch][installredirect][md5] = "f950215a38830a0ce537b78b46a2d15
 projects[drupal][patch][tableheaders][url] = "https://drupal.org/files/2097081-fix-sticky-header-column-width-7.x-6.patch"
 projects[drupal][patch][tableheaders][md5] = "df41415bf45413a51d618946f0fb1e6b"
 
+projects[platform][version] = 1.3
+projects[registry_rebuild][version] = 2.2
+
 projects[esdportal_dash][type] = "module"
 projects[esdportal_dash][subdir] = "custom"
 projects[esdportal_dash][download][type] = "git"
