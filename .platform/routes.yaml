@@ -8,6 +8,9 @@ http://{default}/:
     enabled: false
   type: upstream
   upstream: php:php
+https://www.{default}/:
+  to: https://{default}/
+  type: redirect
 https://{default}/:
   cache:
     cookies:
