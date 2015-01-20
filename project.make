@@ -307,7 +307,7 @@ projects[webform_term_opts][patch][relatable_tid][md5] = "fbf90c283fe9e02116093b
 projects[esd][type] = "theme"
 projects[esd][download][type] = "git"
 projects[esd][download][url] = "https://github.com/ESDet/esd.git"
-projects[esd][download][branch] = "portal"
+projects[esd][download][revision] = "4bde6a9368af9036768b0e44d408618cfb5262c8"
 
 projects[omega][type] = "theme"
 projects[omega][download][type] = "git"
