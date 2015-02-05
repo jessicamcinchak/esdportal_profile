@@ -5,6 +5,7 @@ php = 5.2.4
 version = 7.x-0.2
 project = esdportal_profile
 dependencies[] = acl
+dependencies[] = acl_views
 dependencies[] = addressfield
 dependencies[] = addressfield_phone
 dependencies[] = block

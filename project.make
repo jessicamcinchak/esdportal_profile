@@ -45,6 +45,12 @@ projects[migrate_esdportal][download][branch] = "7.x-1.x"
 projects[acl][subdir] = "contrib"
 projects[acl][version] = "1.0"
 
+projects[acl_views][type] = "module"
+projects[acl_views][subdir] = "custom"
+projects[acl_views][download][type] = "git"
+projects[acl_views][download][url] = "https://github.com/bnchdrff/acl_views.git"
+projects[acl_views][download][branch] = "7.x-1.x"
+
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc4"
 
