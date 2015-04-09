@@ -67,7 +67,7 @@ Install PhantomJS.  You can download and unpack manually from
 http://phantomjs.org/download.html, or use npm.
 
 ```
-sudo npm install -g phantomjs
+npm install -g phantomjs
 ```
 
 ### Running tests
