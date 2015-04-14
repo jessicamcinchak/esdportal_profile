@@ -40,7 +40,7 @@ projects[migrate_ec][type] = "module"
 projects[migrate_ec][subdir] = "custom"
 projects[migrate_ec][download][type] = "git"
 projects[migrate_ec][download][url] = "https://github.com/ESDet/migrate_ec.git"
-projects[migrate_ec][download][revision] = "60e7eba1e30963cbf25066bb76abb966f0f14cd9"
+projects[migrate_ec][download][revision] = "57e5bd503d131b83ebe65409ff9776ee113c1196"
 
 projects[migrate_esdportal][type] = "module"
 projects[migrate_esdportal][subdir] = "custom"
