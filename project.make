@@ -169,11 +169,20 @@ projects[pathauto][version] = "1.2"
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
 
+projects[services][type] = "module"
 projects[services][subdir] = "contrib"
-projects[services][version] = "3.4"
+projects[services][download][type] = "git"
+projects[services][download][url] = "git://git.drupal.org/project/services.git"
+projects[services][download][branch] = "7.x-3.x"
 
 projects[services_views][subdir] = "contrib"
 projects[services_views][version] = "1.0-beta2"
+
+projects[services_documentation][type] = "module"
+projects[services_documentation][subdir] = "contrib"
+projects[services_documentation][download][type] = "git"
+projects[services_documentation][download][url] = "git://git.drupal.org/project/services_documentation.git"
+projects[services_documentation][download][branch] = "7.x-1.x"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
