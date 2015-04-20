@@ -151,6 +151,12 @@ projects[location_feeds][version] = "1.6"
 projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.3"
 
+projects[loadtermnames][type] = "module"
+projects[loadtermnames][subdir] = "contrib"
+projects[loadtermnames][download][type] = "git"
+projects[loadtermnames][download][url] = "https://github.com/bnchdrff/loadtermnames"
+projects[loadtermnames][download][branch] = "7.x-1.x"
+
 projects[mailsystem][subdir] = "contrib"
 projects[mailsystem][version] = "2.34"
 
