@@ -76,6 +76,9 @@ projects[charts][version] = "2.0-rc1"
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.1"
 
+projects[composer_manager][subdir] = "contrib"
+projects[composer_manager][version] = "1.7"
+
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.3"
 
