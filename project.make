@@ -229,7 +229,8 @@ projects[workspace][version] = "1.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 
-
+projects[xautoload][subdir] = "contrib"
+projects[xautoload][version] = "5.1"
 
 ; Modules
 projects[addressfield][type] = "module"
