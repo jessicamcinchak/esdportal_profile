@@ -12,6 +12,12 @@ projects[drupal][patch][tableheaders][md5] = "df41415bf45413a51d618946f0fb1e6b"
 projects[platform][version] = 1.3
 projects[registry_rebuild][version] = 2.2
 
+projects[composer][type] = "module"
+projects[composer][subdir] = "contrib"
+projects[composer][download][type] = "git"
+projects[composer][download][url] = "git://git.drupal.org/project/composer.git"
+projects[composer][download][branch] = "8.x-1.x"
+
 projects[esdportal_dash][type] = "module"
 projects[esdportal_dash][subdir] = "custom"
 projects[esdportal_dash][download][type] = "git"
