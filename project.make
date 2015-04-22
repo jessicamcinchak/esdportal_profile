@@ -34,13 +34,13 @@ projects[esdportal_str][type] = "module"
 projects[esdportal_str][subdir] = "features"
 projects[esdportal_str][download][type] = "git"
 projects[esdportal_str][download][url] = "https://github.com/ESDet/esdportal_str.git"
-projects[esdportal_str][download][revision] = "b68317be820ca7173b28aaeb5b23e492454ecf4e"
+projects[esdportal_str][download][revision] = "a7b628d1d71897c0e29148f9f429aa588c2c801a"
 
 projects[esdportal_api][type] = "module"
 projects[esdportal_api][subdir] = "custom"
 projects[esdportal_api][download][type] = "git"
 projects[esdportal_api][download][url] = "https://github.com/ESDet/esdportal_api.git"
-projects[esdportal_api][download][revision] = "5d29a925b99b0f27af8b05e86d11eb899d9adf14"
+projects[esdportal_api][download][revision] = "c42dc22f0662bd9300cf11e8d332ca5c475afaf3"
 
 projects[migrate_ec][type] = "module"
 projects[migrate_ec][type] = "module"
@@ -229,7 +229,8 @@ projects[workspace][version] = "1.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 
-
+projects[xautoload][subdir] = "contrib"
+projects[xautoload][version] = "5.1"
 
 ; Modules
 projects[addressfield][type] = "module"
