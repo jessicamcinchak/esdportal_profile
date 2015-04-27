@@ -119,7 +119,13 @@ Feature: Retrieve school data via the API
       """
   
   @api
-  Scenario: 
-    
-    
-    
+  Scenario: Request all schools (/schools/)
+  Given "Schools" content
+  When I send a GET request to "/schools/"
+  Then I get a response
+  And the response is JSON
+  And the response contains at least one school
+  And the first school contains an ESD id
+  And the first school contains a name
+  And the first school contains a building code 
+  And the first school contains a 2015 Profile
