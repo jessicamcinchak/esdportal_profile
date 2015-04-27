@@ -5,7 +5,7 @@ Feature: Retrieve school data via the API
 
   @api
   Scenario: Search for a school by name
-  Given "Name" content:
+  Given "Schools" content:
     | name           |
     | ABC Elementary |
     When I send a GET request to "schools?filters[name]=ABC Elementary"
