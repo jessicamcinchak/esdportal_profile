@@ -164,7 +164,7 @@ projects[loadtermnames][type] = "module"
 projects[loadtermnames][subdir] = "contrib"
 projects[loadtermnames][download][type] = "git"
 projects[loadtermnames][download][url] = "https://github.com/bnchdrff/loadtermnames"
-projects[loadtermnames][download][branch] = "7.x-1.x"
+projects[loadtermnames][download][revision] = "380dc4a573ffca8342d788c7431ac1d9faa7f7ba"
 
 projects[mailsystem][subdir] = "contrib"
 projects[mailsystem][version] = "2.34"
