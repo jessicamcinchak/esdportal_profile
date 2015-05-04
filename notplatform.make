@@ -1,0 +1,11 @@
+api = 2
+core = 7.x
+
+projects[drupal][type] = "core"
+projects[drupal][version] = "7.36"
+
+projects[esdportal_profile][type] = profile
+projects[esdportal_profile][download][type] = git
+projects[esdportal_profile][download][branch] = 2015scorecard
+projects[esdportal_profile][download][url] = https://github.com/esdet/esdportal_profile.git
+
