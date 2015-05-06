@@ -122,10 +122,13 @@ projects[geocoder][subdir] = "contrib"
 projects[geocoder][version] = "1.2"
 
 projects[geofield][subdir] = "contrib"
-projects[geofield][version] = "1.2"
+projects[geofield][version] = "2.3"
 
+projects[geophp][type] = "module"
 projects[geophp][subdir] = "contrib"
-projects[geophp][version] = "1.7"
+projects[geophp][download][type] = "git"
+projects[geophp][download][url] = "git://git.drupal.org/project/geophp.git"
+projects[geophp][download][revision] = "2777c5ebc953841dea71fba6b91ff388499fc59e"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.3"
