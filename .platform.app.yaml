@@ -45,6 +45,9 @@ crons:
     drupal:
         spec: "*/20 * * * *"
         cmd: "cd public ; drush core-cron"
+    csvcache:
+        spec: "0 0 * * *"
+        cmd: "cd public/profiles/esdportal_profile/scripts; bash portal-csv-cache.sh"
 
 runtime:
   extensions:
