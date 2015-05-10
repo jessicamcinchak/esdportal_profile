@@ -185,7 +185,7 @@ projects[services][type] = "module"
 projects[services][subdir] = "contrib"
 projects[services][download][type] = "git"
 projects[services][download][url] = "https://github.com/bnchdrff/esdet-services.git"
-projects[services][download][revision] = "192df99732d11bb504a32d49f32a71eee574cf68"
+projects[services][download][revision] = "4f6b16225ab467c4e06ec1ccbe17a3285c0d0b10"
 
 projects[services_views][subdir] = "contrib"
 projects[services_views][version] = "1.0-beta2"
