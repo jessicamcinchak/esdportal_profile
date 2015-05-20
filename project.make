@@ -46,7 +46,7 @@ projects[esdportal_api][type] = "module"
 projects[esdportal_api][subdir] = "custom"
 projects[esdportal_api][download][type] = "git"
 projects[esdportal_api][download][url] = "https://github.com/ESDet/esdportal_api.git"
-projects[esdportal_api][download][revision] = "7e422c74b40d26b6d7eec1bfa262d95029b61f10"
+projects[esdportal_api][download][revision] = "c42184ea98576134a0dc08666880aa2bdc045d45"
 
 projects[migrate_ec][type] = "module"
 projects[migrate_ec][type] = "module"
@@ -383,4 +383,3 @@ libraries[jquery.domwindow][download][type] = "get"
 libraries[jquery.domwindow][download][url] = "http://swip.codylindley.com/jquery.DOMWindow.js"
 libraries[jquery.domwindow][directory_name] = "jquery.domwindow"
 libraries[jquery.domwindow][type] = "library"
-
