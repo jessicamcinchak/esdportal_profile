@@ -119,7 +119,12 @@ projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.3"
 
 projects[geocoder][subdir] = "contrib"
-projects[geocoder][version] = "1.2"
+projects[geocoder][type] = "module"
+projects[geocoder][download][type] = "git"
+projects[geocoder][download][url] = "git://git.drupal.org/project/geocoder.git"
+projects[geocoder][download][revision] = "7d9d3ddcc07a1403f547847fe02a67e32579b672"
+projects[geocoder][patch][term_backfill][url] = "https://www.drupal.org/files/geocoder-backfill-entities-1451942-40.patch"
+projects[geocoder][patch][term_backfill][md5] = "b9766fbd622b6870dc6386422f6d0633"
 
 projects[geofield][subdir] = "contrib"
 projects[geofield][version] = "2.3"
