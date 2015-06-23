@@ -1,0 +1,3 @@
+database1:
+  type: mysql
+    disk: 8192
