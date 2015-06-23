@@ -1,3 +1,10 @@
-database1:
-  type: mysql
-  disk: 4096
+mysql:
+    type: mysql
+    disk: 8192
+
+redis:
+    type: redis
+
+solr:
+    type: solr
+    disk: 1024
