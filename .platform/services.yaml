@@ -7,4 +7,4 @@ redis:
 
 solr:
     type: solr
-    disk: 0
+    disk: 1
