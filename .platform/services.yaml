@@ -1,6 +1,6 @@
 mysql:
     type: mysql
-    disk: 3000
+    disk: 3100
 
 redis:
     type: redis
