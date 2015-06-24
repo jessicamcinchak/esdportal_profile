@@ -46,7 +46,7 @@ projects[esdportal_api][type] = "module"
 projects[esdportal_api][subdir] = "custom"
 projects[esdportal_api][download][type] = "git"
 projects[esdportal_api][download][url] = "https://github.com/ESDet/esdportal_api.git"
-projects[esdportal_api][download][revision] = "c3f0d12391cbac9ecaaea003f3b1eb3d2da3d4e8"
+projects[esdportal_api][download][revision] = "33bb4c55e813394d6c40df495d8030f6f1e22eb7"
 
 projects[migrate_ec][type] = "module"
 projects[migrate_ec][type] = "module"
