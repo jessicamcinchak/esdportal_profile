@@ -3,7 +3,7 @@ core = 7.x
 api = 2
 
 projects[drupal][type] = "core"
-projects[drupal][version] = "7.36"
+projects[drupal][version] = "7.39"
 projects[drupal][patch][installredirect][url] = "https://drupal.org/files/issues/install-redirect-on-empty-database-728702-36.patch"
 projects[drupal][patch][installredirect][md5] = "f950215a38830a0ce537b78b46a2d151"
 projects[drupal][patch][tableheaders][url] = "https://drupal.org/files/2097081-fix-sticky-header-column-width-7.x-6.patch"
@@ -28,7 +28,7 @@ projects[esdportal_e3][type] = "module"
 projects[esdportal_e3][subdir] = "custom"
 projects[esdportal_e3][download][type] = "git"
 projects[esdportal_e3][download][url] = "https://github.com/ESDet/esdportal_e3.git"
-projects[esdportal_e3][download][branch] = "7.x-1.x"
+projects[esdportal_e3][download][revision] = "d5d122c7aae479d35bee3b8b9c054adc681ccd24"
 
 projects[esdportal_ecsitevisit_webform_options][type] = "module"
 projects[esdportal_ecsitevisit_webform_options][subdir] = "custom"
@@ -46,13 +46,13 @@ projects[esdportal_str][type] = "module"
 projects[esdportal_str][subdir] = "features"
 projects[esdportal_str][download][type] = "git"
 projects[esdportal_str][download][url] = "https://github.com/ESDet/esdportal_str.git"
-projects[esdportal_str][download][revision] = "a4dbed9095639ff9e2e01f8e0ec2b61a2d62730f"
+projects[esdportal_str][download][revision] = "ee6ac1dc141f928f4ab5faace153ea9f69676c36"
 
 projects[esdportal_api][type] = "module"
 projects[esdportal_api][subdir] = "custom"
 projects[esdportal_api][download][type] = "git"
 projects[esdportal_api][download][url] = "https://github.com/ESDet/esdportal_api.git"
-projects[esdportal_api][download][revision] = "946a340f22344f9033f25da5aa91dcf787350bba"
+projects[esdportal_api][download][revision] = "0defc70b5fc6f3bd0964cb4f8515fb712bdb66f6"
 
 projects[migrate_ec][type] = "module"
 projects[migrate_ec][type] = "module"
