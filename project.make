@@ -192,6 +192,9 @@ projects[pathauto][version] = "1.2"
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
 
+projects[select_or_other][subdir] = "contrib"
+projects[select_or_other][version] = "2.22"
+
 projects[services][type] = "module"
 projects[services][subdir] = "contrib"
 projects[services][download][type] = "git"
