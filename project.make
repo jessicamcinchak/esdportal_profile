@@ -28,7 +28,7 @@ projects[esdportal_e3][type] = "module"
 projects[esdportal_e3][subdir] = "custom"
 projects[esdportal_e3][download][type] = "git"
 projects[esdportal_e3][download][url] = "https://github.com/ESDet/esdportal_e3.git"
-projects[esdportal_e3][download][revision] = "4a71aafd44b763075a6f68f8c03b4876f1b5a3e2"
+projects[esdportal_e3][download][revision] = "cac5c524dc0ca92baac1709d50642f528fcbc12f"
 
 projects[esdportal_ecsitevisit_webform_options][type] = "module"
 projects[esdportal_ecsitevisit_webform_options][subdir] = "custom"
